@@ -2025,6 +2025,7 @@ Webflow.define('forms', module.exports = function ($, _) {
     var $errorWrap = $el.find('> .w-file-upload-error');
     var $input = $defaultWrap.find('.w-file-upload-input');
     var $label = $defaultWrap.find('.w-file-upload-label');
+    var $labelChildren = $label.children();
     var $errorMsgEl = $errorWrap.find('.w-file-upload-error-msg');
     var $fileEl = $successWrap.find('.w-file-upload-file');
     var $removeEl = $successWrap.find('.w-file-remove-link');
@@ -2076,6 +2077,9 @@ Webflow.define('forms', module.exports = function ($, _) {
         e.preventDefault();
       });
       $label.on('click', function (e) {
+        e.preventDefault();
+      });
+      $labelChildren.on('click', function (e) {
         e.preventDefault();
       });
     }
