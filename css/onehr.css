@@ -610,6 +610,10 @@ a {
   text-align: left;
 }
 
+.heading-4.title:hover {
+  color: #333;
+}
+
 .heading-4.kpi {
   font-size: 22px;
   text-align: left;
@@ -3943,21 +3947,3 @@ html.w-mod-js *[data-ix="scroll-navbar-control"] {
   }
 }
 
-.accbtnCP {
-    position: fixed!important;
-    _position: absolute!important;
-    _top: expression(document.compatMode && document.compatMode == 'CSS1Compat' ? documentElement.scrollTop : document.body.scrollTop);
-    z-index: 1000000;
-    cursor: pointer;
-    text-align: center;
-    border-radius: 4px;
-    padding: 10px 15px!important;
-    text-align: center;
-    color: #fff!important;
-    background-color: #828689!important;
-    display: inline-block;
-    height: 21px;
-    width: 100px;
-    top: 0;
-    left: 0
-} 
