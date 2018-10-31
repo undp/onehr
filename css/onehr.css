@@ -610,6 +610,10 @@ a {
   text-align: left;
 }
 
+.heading-4.title:hover {
+  color: #333;
+}
+
 .heading-4.kpi {
   font-size: 22px;
   text-align: left;
